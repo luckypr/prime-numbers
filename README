@@ -24,7 +24,7 @@ METHOD:
         
         For that reason, I'am going to use semaphores(binary semaphore)
 
-PREQUISITES:
+PREREQUISITES:
         - C compiler(gcc)
         - File with random numbers(called random_numbers)
         - chmod +x get_num_of_cores.sh ( before you run ./main )
