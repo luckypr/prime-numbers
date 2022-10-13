@@ -1,0 +1,30 @@
+        ***** Finding prime numbers in file ****
+
+TASK:
+        1- Find all prime numbers in file 
+        2- Give user some info(smallest and biggest prime number)
+
+FILE:
+        Name of target file is random_numbers.
+        Structure of file is one line-one number.
+METHOD:
+        Read whole file in memory.
+
+        Remove every '\n' with '\0'
+
+        Bash script will calculate number of cores that CPU has,
+                and we will run that number of threads.
+
+        When we find prime number, we will add him into list of prime numbers.
+        
+        List is singly linked list.
+        
+        Part of code where we update list is critical section. Only 1 thread can be 
+                in Crictical section.
+        
+        For that reason, I'am going to use semaphores(binary semaphore)
+
+PREQUISITES:
+        - C compiler(gcc)
+        - File with random numbers(called random_numbers)
+        
