@@ -84,7 +84,7 @@ main(int argc,char **argv)
 	system("rm num_of_cores");
 
 
-	//get line numbers
+	//get number of lines in file
 	char command[64];
 	char get_lines[128];
 	sprintf(command,"sed -n '$=' %s > num_of_lines",FILENAME);
